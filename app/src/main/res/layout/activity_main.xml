@@ -26,7 +26,6 @@
         android:layout_width="match_parent"
         app:srcCompat="@drawable/btn_portfolio"
         android:id="@+id/btn_portfolio"
-        android:background="none"
         android:scaleType="fitCenter"
         android:layout_height="103dp" />
 
