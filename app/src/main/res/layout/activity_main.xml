@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_bg"
+    android:weightSum="1">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="199dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/logo"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:adjustViewBounds="false"
+            android:layout_weight="0.28" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/btn_portfolio"
+        android:id="@+id/btn_portfolio"
+        android:background="none"
+        android:scaleType="fitCenter"
+        android:layout_height="103dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/btn_lesson"
+        android:id="@+id/btn_lesson"
+        android:background="none"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/btn_challenge"
+        android:id="@+id/btn_challenge"
+        android:background="none"
+        android:scaleType="fitCenter" />
+</LinearLayout>
